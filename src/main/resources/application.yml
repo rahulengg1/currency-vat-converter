@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+  
+apilayer:
+    access_key: 978df1a5b509ef36d066918678229234
+    base_url: http://apilayer.net/api/
+    end_point: live
+    
+cloudmersive:
+    client:
+       api_key: 2778b6e6-3c91-46f3-ae74-fdd2ece1a8da    
