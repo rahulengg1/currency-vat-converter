@@ -1,6 +1,7 @@
 package com.rahul.app.api.service.impl;
 
 import java.time.LocalTime;
+import java.time.ZoneOffset;
 
 import org.springframework.stereotype.Service;
 
@@ -16,8 +17,9 @@ public class CurrentTimeServiceImpl implements CurrentTimeService{
 
 	@Override
 	public CurrentTimeResponseObject getCurrentTime() {
+		
 		CurrentTimeResponseObject response = new CurrentTimeResponseObject();
-		LocalTime localDateTime = LocalTime.now();
+		LocalTime localDateTime = LocalTime.now(ZoneOffset.UTC);
 		response.setCurrentTime(localDateTime);
 		return response;
 	}
