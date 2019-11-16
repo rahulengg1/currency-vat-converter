@@ -1,4 +1,4 @@
-# currency-vat-converter
+"currentTime": "15:29:08.232"# currency-vat-converter
 
 Implement a application which has three services current time, currency conversion and vat validation.
 
@@ -70,10 +70,10 @@ Response:
 
 ```
 {
-  "currentTime": "14:20:13.97"
+  "currentTime": "15:29:08.232"
 }
 ```
-
+Timezone "UTC"
 
 
 #### POST /currency/convert
@@ -158,3 +158,4 @@ mvn clean test
 
 
 
+To check code coverage find following file inside working directory - target/site/jacoco/index.html file. 
